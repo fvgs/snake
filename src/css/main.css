@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+	background-color: #0d0d0d;
+}
+
+canvas {
+	display: block;
+	background-color: #0d0d0d;
+}
+
+/* mali-regular - latin */
+@font-face {
+	font-family: 'Mali';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Mali Regular'), local('Mali-Regular'),
+			 url('../fonts/mali-v1-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+			 url('../fonts/mali-v1-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
